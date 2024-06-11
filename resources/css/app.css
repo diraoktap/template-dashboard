@@ -3,52 +3,52 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Proto Mono Light';
-    src: url('ProtoMono-Light.eot');
-    src: local('Proto Mono Light'), local('ProtoMono-Light'),
-        url('ProtoMono-Light.eot?#iefix') format('embedded-opentype'),
-        url('ProtoMono-Light.woff2') format('woff2'),
-        url('ProtoMono-Light.woff') format('woff'),
-        url('ProtoMono-Light.ttf') format('truetype');
+    font-family: 'Poppins Light';
+    src: url('Poppins-Light.eot');
+    src: local('Poppins Light'), local('Poppins-Light'),
+        url('Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff'),
+        url('Poppins-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proto Mono Regular';
-    src: url('ProtoMono-Regular.eot');
-    src: local('Proto Mono Regular'), local('ProtoMono-Regular'),
-        url('ProtoMono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('ProtoMono-Regular.woff2') format('woff2'),
-        url('ProtoMono-Regular.woff') format('woff'),
-        url('ProtoMono-Regular.ttf') format('truetype');
+    font-family: 'Poppins Regular';
+    src: url('Poppins-Regular.eot');
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+        url('Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff'),
+        url('Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proto Mono Medium';
-    src: url('ProtoMono-Medium.eot');
-    src: local('Proto Mono Medium'), local('ProtoMono-Medium'),
-        url('ProtoMono-Medium.eot?#iefix') format('embedded-opentype'),
-        url('ProtoMono-Medium.woff2') format('woff2'),
-        url('ProtoMono-Medium.woff') format('woff'),
-        url('ProtoMono-Medium.ttf') format('truetype');
+    font-family: 'Poppins Medium';
+    src: url('Poppins-Medium.eot');
+    src: local('Poppins Medium'), local('Poppins-Medium'),
+        url('Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff'),
+        url('Poppins-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proto Mono SemiBold';
-    src: url('ProtoMono-SemiBold.eot');
-    src: local('Proto Mono Semi Bold'), local('ProtoMono-SemiBold'),
-        url('ProtoMono-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('ProtoMono-SemiBold.woff2') format('woff2'),
-        url('ProtoMono-SemiBold.woff') format('woff'),
-        url('ProtoMono-SemiBold.ttf') format('truetype');
+    font-family: 'Poppins SemiBold';
+    src: url('Poppins-SemiBold.eot');
+    src: local('Poppins Semi Bold'), local('Poppins-SemiBold'),
+        url('Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff'),
+        url('Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -56,22 +56,22 @@
 
 @layer base {
     :root {
-        --white-primary: #F6F5F5;
+        --white-primary: #eeeeee;
     }
 }
 
-.text-proto-light {
-    font-family: 'Proto Mono Light' !important;
+.text-Poppins-Light {
+    font-family: 'Poppins Light' !important;
 }
 
-.text-proto-regular {
-    font-family: 'Proto Mono Regular' !important;
+.text-Poppins-Regular {
+    font-family: 'Poppins Regular' !important;
 }
 
-.text-proto-medium {
-    font-family: 'Proto Mono Medium' !important;
+.text-Poppins-Medium {
+    font-family: 'Poppins Medium' !important;
 }
 
-.text-proto-semibold {
-    font-family: 'Proto Mono SemiBold' !important;
+.text-Poppins-SemiBold {
+    font-family: 'Poppins SemiBold' !important;
 }

@@ -7,7 +7,21 @@ module.exports = {
     'node_modules/preline/dist/*.js',
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+    },
+
+    extend: {
+      backgroundImage: {
+        'bg-aircraft-all': "",
+      },
+      fontFamily: {
+        display: 'Oswald, ui-serif',
+      },
+      colors: {
+        whitePrimary: 'var(--white-primary)',
+      },
+    },
   },
   plugins: [
     require('preline/plugin'),
