@@ -11,6 +11,7 @@
 </head>
 
 <body class="h-full text-proto-light">
+    @include('layouts.partial.header')
     {{ $slot }}
 </body>
 

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Home;
+use App\Livewire\Sales;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,4 @@ use App\Livewire\Home;
 //     return view('welcome');
 // });
 Route::get('/', Home::class);
+Route::get('/sales', Sales::class)->name('sales');
